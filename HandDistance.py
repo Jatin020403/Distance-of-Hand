@@ -45,8 +45,8 @@ The palm must be parallel to the screen and and right in front of the camera''')
             print('D_initial value for you is ', D_initial)
             Config = False
             
-        elif ask == 'MINE':  
-            D_initial = 256/DISTANCE * 30               # Hardcoded my D_initial value
+        elif ask == 'MINE':
+            D_initial = 256             # Hardcoded my D_initial value
             Config = False
             
         else:
